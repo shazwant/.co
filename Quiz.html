@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Quiz</title>
+	<link rel="stylesheet" type="text/css" href="Quiz.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="Quiz.js"></script>
+</head>
+
+<body>
+	<center><h1><i>How Well Do You Know Me!</i></h1></center>
+	<div class="lagu">
+		<audio controls autoplay preload="metadata" class="audio">
+            <source src="kahoot.mp3">
+            </audio>
+	</div>
+<form name="Quiz" id="Quiz"  method="post" action="">
+	
+	
+	<div>
+		Fill in your name* :<input type="text" name="Name" placeholder="Enter your first name" required>
+	<div>
+		<p></p> <label for="email">Enter your email* :</label>
+ 	 <input type="email" id="email" name="email" placeholder="ali@gmail.com">
+	</div>
+	
+	<div>
+		<br></br>
+		What is your relation with this owner:
+		<br></br>
+	Friend<input type="checkbox" name="relation">
+	Enemies<input type="checkbox" name="relation"><br></br>
+	Buddy<input type="checkbox" name="relation">
+	Stranger<input type="checkbox" name="relation">
+</br>
+	
+	<div><br></br>
+		AGE: 
+		<select name='age' required>
+		<option value=''>Please select an option</option>
+		<option value='18 years - 20 years'>18 years - 20 years</option>
+		<option value='21 years - 30 years'>21 years - 30 years</option>
+		<option value='31 years - 40 years'>31 years - 40 years</option>
+		</select>
+		</div>
+
+	<div class="text-box">
+	  <center><h1>QUIZ</h1>
+		<p>Good Luck ! </p>
+		</center>
+</div>
+	
+	<div>
+		<p>1. What is my full name? (1m)</p>
+	  <p><input type="radio" name="question1" value="Muhammad syazwan bin syairulhyzam">A.Muhammad syazwan bin syairulhyzam</input></p>
+		<p><input type="radio" name="question1" value="Mohammad shazwan bin syairulhyzam">B.Mohammad shazwan bin syairulhyzam</input></p>
+		<p><input type="radio" name="question1" value="Muhammad shazwan bin shairulhyzam">C.Muhammad shazwan bin shairulhyzam</input></p>
+		<p><input type="radio" name="question1" value="Mohammad shazwan bin shairulhyzam">D.Mohammad shazwan bin shairulhyzam</input></p>
+		
+		</div>
+	
+	  <div>
+		  <br></br><p>2. What is my favourite quote? (1m)</p>
+		<p><input type="radio" name="question2" value="You don't always need a plan. Sometimes you just need to breathe, trust, let go and see what happens.">
+		  <strong><em>"You don't always need a plan. Sometimes you just need to breathe, trust, let go and see what happens."</em></strong>
+</input></p>
+		<p><input type="radio" name="question2" value="Everthing happens for a reason. I believe in this at the highest level.">
+		  <em><strong>"Everthing happens for a reason. I believe in this at the highest level."</strong></em>
+</input></p>
+		<p><input type="radio" name="question2" value="You don't find the happy life. You make it.">
+		  <strong><em>"You don't find the happy life. You make it."</em></strong>
+</input></p>
+		<p><input type="radio" name="question2" value="Though times don't last. Tough people do.">
+		  <strong><em>"Though times don't last. Tough people do."</em></strong>
+</input></p>
+		
+		</div>
+		<div><br></br>3. What did wan do during his free time.</div>
+
+		<div>
+			<font color="black">
+		<center><table border ='2' bgcolor='#89c576'>
+			<tr bgcolor='White' ><th>NUMBER</th><th>HOBBY</th></tr>
+			<tr align='center'><td>I</td><td>Watching Streamer in FB</td></tr>
+			<tr align='center'><td>II</td><td>Playing Mobile Game</td></tr>
+			<tr align='center'><td>III</td><td>Watch anime</td></tr>
+			<tr align='center'><td>IV</td><td>Playing Game in PC</td></tr>
+			</table></center></font>
+		
+		<p>Please choose wisely, it's about future of our friendship.</p>
+		<p><input type="radio" name="question3" value="I and II">
+		  A. I and II
+</input></p>
+		<p><input type="radio" name="question3" value="I and III">
+		  B. I and III
+</input></p>
+		<p><input type="radio" name="question3" value="II and III">
+		  C. II and III
+</input></p>
+		<p><input type="radio" name="question3" value="III  and IV">
+		  D. III  and IV
+</input></p>
+		
+		</div>
+
+
+		<center><input type="button" name="SUBMIT" value="Submit" onclick="check()">
+		
+		<div class="button"><a href="index.html" class="btn">HOME</a></div>
+		</center></font>
+		
+	</form>
+</body>
+</html>
